@@ -1,6 +1,6 @@
 .links{
     display: grid;
-    grid-template-columns: 50% 15% 30%;
+    grid-template-columns: 50% 15% 35%;
     align-items: center;
 }
 .links .logo{
