@@ -1,0 +1,47 @@
+.links{
+    display: grid;
+    grid-template-columns: 50% 15% 30%;
+    align-items: center;
+}
+.links .logo{
+    position: static;
+}
+@media (max-width:700px){
+.links{
+    display: grid;
+    grid-template-columns: 6% 3% 24%;
+    align-items: center;
+}
+.head{ 
+    width: 190vw;
+    height: 90vh;
+}
+.main .container .main-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(2,1fr);   
+}
+.main .container  .main-container>:first-child,
+.main .container  .main-container>:last-child{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1rem;
+    grid-column: 1;
+    align-items: center;
+}
+.main .container  .main-container>*:last-child{
+    grid-column: 1;
+}
+.bootom .end{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* display: flex; */
+    /* flex-flow: column-reverse; */
+} 
+
+
+
+
+
+
+}
