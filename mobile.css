@@ -9,11 +9,11 @@
 @media (max-width:700px){
 .links{
     display: grid;
-    grid-template-columns: 10% 5% 43%;
+    grid-template-columns: 10% 5% 49%;
     align-items: center;
 }
 .head{ 
-    width: 170vw;
+    width: 100vw;
     height: 90vh;
 }
 .main .container .main-container{
@@ -35,8 +35,6 @@
 .bootom .end{
     display: grid;
     grid-template-columns: 1fr;
-    /* display: flex; */
-    /* flex-flow: column-reverse; */
 } 
 
 
