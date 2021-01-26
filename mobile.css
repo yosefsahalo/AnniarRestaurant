@@ -9,7 +9,7 @@
 @media (max-width:700px){
 .links{
     display: grid;
-    grid-template-columns: 6% 3% 24%;
+    grid-template-columns: 6% 3% 30%;
     align-items: center;
 }
 .head{ 
