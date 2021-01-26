@@ -9,7 +9,7 @@
 @media (max-width:700px){
 .links{
     display: grid;
-    grid-template-columns: 14% 8% 65%;
+    grid-template-columns: 14% 8% 70%;
     align-items: center;
 }
 .head{ 
@@ -18,7 +18,7 @@
 }
 .head .head-article{
     position: static;
-    width: 85vw;
+    width: 90vw;
     height: 20vh;
 }
 .main .container .main-container{
@@ -41,7 +41,11 @@
     display: grid;
     grid-template-columns: 1fr;
 } 
-
+.bootom p{
+    font-size: 10px;
+    width: fit-content;
+    padding: 10px;
+}
 
 
 
